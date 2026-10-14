@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Genrev Abraham V. Ordonio — 4th-year BSIT Student, UI/UX Designer, Front-End Developer, and ICT Support Specialist seeking OJT, internship, and junior IT opportunities.">
+  <meta name="keywords" content="Genrev Ordonio, Genrev Abraham Ordonio, UI/UX Designer, IT Support Specialist, Front-End Developer, Figma, Quezon City University, QCU, Portfolio 2026, OJT">
+  <meta name="author" content="Genrev Abraham V. Ordonio">
+  <meta name="theme-color" content="#080907">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Genrev Abraham V. Ordonio — UI/UX Designer & IT Support Specialist">
+  <meta property="og:description" content="Personal portfolio of Genrev Ordonio. Designing digital experiences and building reliable IT solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://genrevordonio.vercel.app/">
+  <meta property="og:image" content="assets/avatar.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Genrev Abraham V. Ordonio — Portfolio 2026">
+  <meta name="twitter:description" content="Designing digital experiences and building reliable IT solutions. Available for OJT & Junior IT opportunities.">
+  <meta name="twitter:image" content="assets/avatar.jpg">
+
+  <title>Genrev Abraham V. Ordonio — UI/UX Designer &amp; IT Solutions</title>
+
+  <!-- Google Fonts: Bricolage Grotesque (Display), Plus Jakarta Sans (Body), JetBrains Mono (Technical) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6.5.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="editorial-body">
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Entry Curtain Animation -->
+  <div class="entry-curtain" id="entry-curtain" aria-hidden="true">
+    <div class="curtain-content">
+      <span class="curtain-eyebrow">PORTFOLIO // 2026</span>
+      <h1 class="curtain-name">
+        <span class="curtain-word">GENREV</span>
+        <span class="curtain-slash">/</span>
+        <span class="curtain-word">ORDONIO</span>
+      </h1>
+      <div class="curtain-bar"><div class="curtain-bar-fill"></div></div>
+      <span class="curtain-sub">UI/UX DESIGN · FRONT-END · IT SYSTEMS</span>
+    </div>
+  </div>
+
+  <!-- Top Reading Progress Indicator -->
+  <div class="reading-line" aria-hidden="true">
+    <div class="reading-progress-bar" id="reading-progress"></div>
+  </div>
+
+  <!-- Primary Floating Navigation Header -->
+  <header class="portfolio-header" id="site-header">
+    <div class="header-inner container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Genrev Ordonio — Home">
+        <span class="brand-monogram">&lt;G/O&gt;</span>
+        <span class="brand-name">GENREV<span class="accent-dot">.</span></span>
+        <span class="brand-year">[2026]</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="desktop-nav" aria-label="Desktop Navigation">
+        <a href="#approach" class="nav-item"><span class="nav-num">01</span>Approach</a>
+        <a href="#work" class="nav-item"><span class="nav-num">02</span>Work</a>
+        <a href="#about" class="nav-item"><span class="nav-num">03</span>About</a>
+        <a href="#journey" class="nav-item"><span class="nav-num">04</span>Journey</a>
+        <a href="#skills" class="nav-item"><span class="nav-num">05</span>Skills</a>
+        <a href="#contact" class="nav-item"><span class="nav-num">06</span>Contact</a>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <button type="button" class="btn-cv-pill" id="open-cv-header-btn" aria-label="Open CV Preview">
+          <i class="fa-regular fa-file-lines"></i>
+          <span>CV View</span>
+        </button>
+
+        <a href="#contact" class="btn-contact-pill">
+          <span>CONTACT</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Drawer Menu Toggle Button -->
+        <button type="button" class="nav-toggle" id="menu-toggle-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="editorial-drawer">
+          <span class="menu-dots-grid" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Editorial Fullscreen Navigation Drawer (Inspired by Ezra Desmond's Menu Flow) -->
+  <div class="editorial-drawer" id="editorial-drawer" aria-hidden="true" role="dialog" aria-label="Site Navigation">
+    <div class="drawer-header container">
+      <a href="#hero" class="brand-logo drawer-logo" id="drawer-logo-link">
+        <span class="brand-monogram">&lt;G/O&gt;</span>
+        <span class="brand-name">GENREV<span class="accent-dot">.</span></span>
+      </a>
+      <button type="button" class="drawer-close" id="drawer-close-btn" aria-label="Close Navigation Menu">
+        <span>CLOSE</span>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="drawer-content container">
+      <nav class="drawer-links" aria-label="Drawer Navigation">
+        <a href="#approach" class="drawer-link" data-index="01">
+          <span class="dl-num">01</span>
+          <span class="dl-title">APPROACH</span>
+          <span class="dl-caption">Process &amp; Methodology</span>
+          <span class="dl-arrow">↗</span>
+        </a>
+        <a href="#work" class="drawer-link" data-index="02">
+          <span class="dl-num">02</span>
+          <span class="dl-title">SELECTED WORK</span>
+          <span class="dl-caption">5 Projects · Figma · Systems</span>
+          <span class="dl-arrow">↗</span>
+        </a>
+        <a href="#about" class="drawer-link" data-index="03">
+          <span class="dl-num">03</span>
+          <span class="dl-title">ABOUT ME</span>
+          <span class="dl-caption">Background · Philosophy · Hobbies</span>
+          <span class="dl-arrow">↗</span>
+        </a>
+        <a href="#journey" class="drawer-link" data-index="04">
+          <span class="dl-num">04</span>
+          <span class="dl-title">EXPERIENCE &amp; EDU</span>
+          <span class="dl-caption">DA MIMAROPA SYIP &amp; QCU BSIT</span>
+          <span class="dl-arrow">↗</span>
+        </a>
+        <a href="#skills" class="drawer-link" data-index="05">
+          <span class="dl-num">05</span>
+          <span class="dl-title">SKILLS &amp; TOOLS</span>
+          <span class="dl-caption">UI/UX · Frontend · IT Support</span>
+          <span class="dl-arrow">↗</span>
+        </a>
+        <a href="#contact" class="drawer-link" data-index="06">
+          <span class="dl-num">06</span>
+          <span class="dl-title">GET IN TOUCH</span>
+          <span class="dl-caption">Quezon City, PH · Available for OJT</span>
+          <span class="dl-arrow">↗</span>
+        </a>
+      </nav>
+
+      <div class="drawer-footer">
+        <div class="drawer-footer-col">
+          <span class="df-label">LOCATION</span>
+          <p class="df-text">Quezon City, Metro Manila, Philippines</p>
+        </div>
+        <div class="drawer-footer-col">
+          <span class="df-label">AVAILABILITY</span>
+          <p class="df-text text-accent"><span class="status-dot"></span> Open for OJT &amp; Junior IT Roles</p>
+        </div>
+        <div class="drawer-footer-col">
+          <span class="df-label">DIRECT CONTACT</span>
+          <a href="mailto:genrevordonio@gmail.com" class="df-link">genrevordonio@gmail.com</a>
+        </div>
+        <div class="drawer-footer-col">
+          <span class="df-label">QUICK RESUME</span>
+          <button type="button" class="df-btn" id="drawer-cv-btn">
+            <i class="fa-regular fa-file-pdf"></i>
+            <span>Interactive CV Modal ↗</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Vertical Section Sidebar (Desktop Indicator) -->
+  <aside class="section-sidebar" aria-label="Section Quick Jump" id="section-sidebar">
+    <div class="sidebar-track">
+      <a href="#approach" class="sidebar-link" data-target="approach" title="01 — Approach">
+        <span class="sidebar-pip"></span>
+        <span class="sidebar-label">01 Approach</span>
+      </a>
+      <a href="#work" class="sidebar-link" data-target="work" title="02 — Selected Work">
+        <span class="sidebar-pip"></span>
+        <span class="sidebar-label">02 Work</span>
+      </a>
+      <a href="#about" class="sidebar-link" data-target="about" title="03 — About Me">
+        <span class="sidebar-pip"></span>
+        <span class="sidebar-label">03 About</span>
+      </a>
+      <a href="#journey" class="sidebar-link" data-target="journey" title="04 — Experience &amp; Education">
+        <span class="sidebar-pip"></span>
+        <span class="sidebar-label">04 Journey</span>
+      </a>
+      <a href="#skills" class="sidebar-link" data-target="skills" title="05 — Skills &amp; Tools">
+        <span class="sidebar-pip"></span>
+        <span class="sidebar-label">05 Skills</span>
+      </a>
+      <a href="#contact" class="sidebar-link" data-target="contact" title="06 — Contact">
+        <span class="sidebar-pip"></span>
+        <span class="sidebar-label">06 Contact</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main Document Flow -->
+  <main id="main-content">
+    
+    <!-- SECTION 00: HERO -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Top Metadata Header Strip -->
+        <div class="hero-meta-bar">
+          <div class="meta-item">
+            <span class="meta-label">PORTFOLIO</span>
+            <span class="meta-val font-mono">EDITION 2026</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">FOCUS</span>
+            <span class="meta-val font-mono">UI/UX · WEB · IT SUPPORT</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <span class="meta-label">STATUS</span>
+            <span class="meta-val status-val">
+              <span class="pulsing-lime-dot"></span>
+              <span>AVAILABLE FOR OJT / JUNIOR IT</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Main Grid -->
+        <div class="hero-grid">
+          
+          <!-- Column Left: Typography & Hero Pitch -->
+          <div class="hero-text-col">
+            <div class="hero-eyebrow">
+              <span class="eyebrow-tag">[ BSIT 4TH YEAR · QCU ]</span>
+              <span class="eyebrow-role">GENREV ABRAHAM V. ORDONIO</span>
+            </div>
+
+            <h1 class="hero-headline">
+              I DESIGN DIGITAL EXPERIENCES AND BUILD RELIABLE IT SOLUTIONS.
+            </h1>
+
+            <p class="hero-lead">
+              A 4th-year <strong>Bachelor of Science in Information Technology</strong> student at 
+              <strong>Quezon City University</strong>. I bridge human-centered design thinking with practical IT knowledge—crafting 
+              interactive UI/UX prototypes in <strong>Figma</strong>, modern front-end interfaces, and dependable ICT infrastructure.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-cta-group">
+              <a href="#work" class="btn btn-primary" id="hero-explore-btn">
+                <span>Explore My Work</span>
+                <i class="fa-solid fa-arrow-down"></i>
+              </a>
+
+              <button type="button" class="btn btn-secondary" id="hero-cv-btn">
+                <i class="fa-regular fa-file-lines"></i>
+                <span>Download CV</span>
+              </button>
+
+              <button type="button" class="btn btn-ghost copy-btn" data-copy="genrevordonio@gmail.com" id="hero-copy-email-btn" title="Click to copy email">
+                <i class="fa-regular fa-copy"></i>
+                <span class="copy-text">Copy Email</span>
+              </button>
+            </div>
+
+            <!-- Hero Stats Strip -->
+            <div class="hero-stats-strip">
+              <div class="stat-block">
+                <span class="stat-number">04<span class="stat-plus">+</span></span>
+                <span class="stat-title">UI/UX Systems Designed</span>
+                <span class="stat-sub">Figma Prototypes</span>
+              </div>
+              <div class="stat-sep"></div>
+              <div class="stat-block">
+                <span class="stat-number">45<span class="stat-unit">d</span></span>
+                <span class="stat-title">ICT Support Internship</span>
+                <span class="stat-sub">DA MIMAROPA SYIP</span>
+              </div>
+              <div class="stat-sep"></div>
+              <div class="stat-block">
+                <span class="stat-number">4<span class="stat-unit">th</span></span>
+                <span class="stat-title">Year BSIT Candidate</span>
+                <span class="stat-sub">Quezon City University</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column Right: Asymmetric Editorial Visual Profile Card -->
+          <div class="hero-visual-col">
+            <div class="editorial-portrait-card">
+              <!-- Corner Crosshairs -->
+              <span class="corner-cross top-left">+</span>
+              <span class="corner-cross top-right">+</span>
+              <span class="corner-cross bottom-left">+</span>
+              <span class="corner-cross bottom-right">+</span>
+
+              <div class="portrait-header-bar">
+                <span class="ph-label font-mono">SPEC // ARCHIVE</span>
+                <span class="ph-id font-mono">QCU-IT-2026</span>
+              </div>
+
+              <div class="portrait-image-wrapper">
+                <img src="assets/avatar.jpg" alt="Genrev Abraham V. Ordonio — UI/UX Designer &amp; IT Support" class="portrait-img" id="hero-avatar-img">
+                <div class="portrait-badge">
+                  <span class="portrait-badge-dot"></span>
+                  <span>UI/UX &amp; IT SUPPORT</span>
+                </div>
+              </div>
+
+              <div class="portrait-details">
+                <div class="portrait-identity">
+                  <h2 class="portrait-name">GENREV ABRAHAM V. ORDONIO</h2>
+                  <p class="portrait-title font-mono">BSIT STUDENT · UI/UX &amp; ICT SPECIALIST</p>
+                </div>
+
+                <div class="portrait-tech-pills">
+                  <span class="tech-pill"><i class="fa-brands fa-figma"></i> Figma</span>
+                  <span class="tech-pill"><i class="fa-brands fa-html5"></i> Web Dev</span>
+                  <span class="tech-pill"><i class="fa-solid fa-server"></i> Hardware</span>
+                  <span class="tech-pill"><i class="fa-solid fa-network-wired"></i> LAN Setup</span>
+                  <span class="tech-pill"><i class="fa-solid fa-database"></i> MySQL</span>
+                </div>
+
+                <div class="portrait-contact-strip">
+                  <a href="mailto:genrevordonio@gmail.com" class="pcs-item" title="Send Email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>genrevordonio@gmail.com</span>
+                  </a>
+                  <a href="tel:09605678177" class="pcs-item" title="Call Genrev">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>0960 567 8177</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 01: INTRODUCTION & APPROACH -->
+    <section class="section approach-section" id="approach">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">01 //</span>
+          <span class="section-kicker font-mono">METHODOLOGY &amp; PHILOSOPHY</span>
+        </div>
+
+        <div class="section-editorial-header">
+          <h2 class="section-headline">
+            FROM IDEAS TO INTERFACES.<br>FROM PROBLEMS TO SOLUTIONS.
+          </h2>
+          <p class="section-lead-desc">
+            A balanced mindset bridging human-centered design thinking with practical IT problem-solving. Every project begins with understanding the core constraint, developing intuitive interfaces, and validating functionality with hands-on testing.
+          </p>
+        </div>
+
+        <!-- 3 Stages Grid (Inspired by Reference Site's Approach) -->
+        <div class="approach-grid">
+          
+          <!-- Stage 01 -->
+          <article class="approach-card">
+            <div class="card-num-row">
+              <span class="card-num font-mono">01</span>
+              <span class="card-pill font-mono">PHASE ONE</span>
+            </div>
+            <h3 class="card-title">UNDERSTAND</h3>
+            <p class="card-desc">
+              Understand the users, identify their needs, and analyze the problem. Whether building an e-commerce catalog or configuring enterprise hardware, diagnosing the root issue prevents costly rework.
+            </p>
+            <ul class="card-deliverables">
+              <li><i class="fa-solid fa-check"></i> <span>User research &amp; pain point mapping</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Workflow analysis &amp; requirement scoping</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Information architecture planning</span></li>
+            </ul>
+            <div class="card-phase-footer font-mono">
+              <span>OUTPUT // USER FLOWS &amp; PROBLEM SCOPE</span>
+            </div>
+          </article>
+
+          <!-- Stage 02 -->
+          <article class="approach-card active-card">
+            <div class="card-num-row">
+              <span class="card-num font-mono text-accent">02</span>
+              <span class="card-pill font-mono pill-accent">PHASE TWO</span>
+            </div>
+            <h3 class="card-title">DESIGN &amp; BUILD</h3>
+            <p class="card-desc">
+              Develop clear user flows, intuitive interfaces, and practical technical solutions. Transform functional requirements into high-fidelity Figma prototypes, responsive web code, or robust database schemas.
+            </p>
+            <ul class="card-deliverables">
+              <li><i class="fa-solid fa-check"></i> <span>Wireframing &amp; interactive Figma prototypes</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Design systems &amp; component libraries</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Semantic web markup &amp; database modeling</span></li>
+            </ul>
+            <div class="card-phase-footer font-mono">
+              <span>OUTPUT // INTERACTIVE PROTOTYPES &amp; SYSTEMS</span>
+            </div>
+          </article>
+
+          <!-- Stage 03 -->
+          <article class="approach-card">
+            <div class="card-num-row">
+              <span class="card-num font-mono">03</span>
+              <span class="card-pill font-mono">PHASE THREE</span>
+            </div>
+            <h3 class="card-title">TEST &amp; IMPROVE</h3>
+            <p class="card-desc">
+              Evaluate usability, troubleshoot issues, and refine the final result. Test interactions across screen sizes, verify hardware configurations, and optimize for speed, clarity, and dependable performance.
+            </p>
+            <ul class="card-deliverables">
+              <li><i class="fa-solid fa-check"></i> <span>Usability walkthroughs &amp; feedback loops</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Diagnostic troubleshooting &amp; bug fixes</span></li>
+              <li><i class="fa-solid fa-check"></i> <span>Accessibility &amp; responsive validation</span></li>
+            </ul>
+            <div class="card-phase-footer font-mono">
+              <span>OUTPUT // POLISHED &amp; VERIFIED DELIVERABLES</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 02: SELECTED PROJECTS -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">02 //</span>
+          <span class="section-kicker font-mono">PORTFOLIO SHOWCASE</span>
+        </div>
+
+        <div class="work-header-row">
+          <div class="work-header-text">
+            <h2 class="section-headline">SELECTED PROJECTS.</h2>
+            <p class="section-lead-desc">
+              Carefully designed interfaces and technical systems solving real university, healthcare, and productivity challenges.
+            </p>
+          </div>
+
+          <!-- Filter Controls -->
+          <div class="work-filter-bar" id="work-filter-bar" role="tablist" aria-label="Filter Projects">
+            <button type="button" class="filter-tab active" data-filter="all" role="tab" aria-selected="true">
+              <span>All Work</span>
+              <span class="filter-count">5</span>
+            </button>
+            <button type="button" class="filter-tab" data-filter="ecommerce" role="tab" aria-selected="false">
+              <span>E-Commerce</span>
+            </button>
+            <button type="button" class="filter-tab" data-filter="management" role="tab" aria-selected="false">
+              <span>Management</span>
+            </button>
+            <button type="button" class="filter-tab" data-filter="gamified" role="tab" aria-selected="false">
+              <span>Gamification</span>
+            </button>
+            <button type="button" class="filter-tab" data-filter="academic" role="tab" aria-selected="false">
+              <span>Academic</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Projects Showcase List / Grid -->
+        <div class="projects-showcase-list" id="projects-container">
+          
+          <!-- PROJECT 01: QCU MerchMart -->
+          <article class="project-entry" data-category="ecommerce" data-project-id="merchmart">
+            <div class="project-preview-box">
+              <div class="preview-inner">
+                <img src="assets/merchmart.jpg" alt="QCU MerchMart E-Commerce System Preview" class="project-hero-img" loading="lazy">
+                <div class="preview-overlay">
+                  <button type="button" class="btn-preview-view open-case-study-btn" data-project="merchmart">
+                    <span>VIEW CASE STUDY</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="preview-caption font-mono">
+                <span>INDEX // 01</span>
+                <span>FIGMA PROTOTYPE · 2024</span>
+              </div>
+            </div>
+
+            <div class="project-meta-box">
+              <div class="project-tag-strip">
+                <span class="ptag-category font-mono">UI/UX DESIGN · E-COMMERCE · FIGMA</span>
+                <span class="ptag-year font-mono">2024</span>
+              </div>
+
+              <h3 class="project-heading">QCU MerchMart — E-Commerce System</h3>
+              
+              <div class="project-role-line">
+                <span class="pr-label">ROLE:</span>
+                <span class="pr-val">UI/UX Designer</span>
+                <span class="pr-sep">·</span>
+                <span class="pr-label">PLATFORM:</span>
+                <span class="pr-val">Web &amp; Mobile Prototype</span>
+              </div>
+
+              <p class="project-summary">
+                Designed an end-to-end e-commerce experience for official school merchandise and academic supplies for Quezon City University. Features intuitive product browsing, variant selection, interactive cart drawer, and frictionless checkout flows.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Figma</span>
+                <span>UI/UX Prototyping</span>
+                <span>User Flows</span>
+                <span>Design System</span>
+                <span>WCAG Accessibility</span>
+              </div>
+
+              <div class="project-actions-row">
+                <button type="button" class="btn btn-outline btn-sm open-case-study-btn" data-project="merchmart">
+                  <span>Explore Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <span class="project-verified-badge font-mono">
+                  <i class="fa-solid fa-circle-check"></i> VERIFIED CASE STUDY
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: Dr. Rosario Veterinary Clinic -->
+          <article class="project-entry" data-category="management" data-project-id="vetclinic">
+            <div class="project-preview-box">
+              <div class="preview-inner">
+                <img src="assets/vetclinic.jpg" alt="Dr. Rosario Veterinary Clinic Interface Preview" class="project-hero-img" loading="lazy">
+                <div class="preview-overlay">
+                  <button type="button" class="btn-preview-view open-case-study-btn" data-project="vetclinic">
+                    <span>VIEW CASE STUDY</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="preview-caption font-mono">
+                <span>INDEX // 02</span>
+                <span>HEALTHCARE MANAGEMENT · 2025</span>
+              </div>
+            </div>
+
+            <div class="project-meta-box">
+              <div class="project-tag-strip">
+                <span class="ptag-category font-mono">UI/UX DESIGN · HEALTHCARE MANAGEMENT</span>
+                <span class="ptag-year font-mono">2025</span>
+              </div>
+
+              <h3 class="project-heading">Dr. Rosario Veterinary Clinic &amp; Pet Grooming Center</h3>
+
+              <div class="project-role-line">
+                <span class="pr-label">ROLE:</span>
+                <span class="pr-val">UI/UX Designer</span>
+                <span class="pr-sep">·</span>
+                <span class="pr-label">PLATFORM:</span>
+                <span class="pr-val">Clinic Management Dashboard</span>
+              </div>
+
+              <p class="project-summary">
+                Designed a clinic management system interface for appointments, pet and customer records, grooming services, and inventory management. Created a dark-mode dashboard tailored for clinical environments, reducing scheduling conflicts and record search times.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Figma</span>
+                <span>Dashboard UX</span>
+                <span>Information Architecture</span>
+                <span>Patient Records</span>
+                <span>Appointment Scheduling</span>
+              </div>
+
+              <div class="project-actions-row">
+                <button type="button" class="btn btn-outline btn-sm open-case-study-btn" data-project="vetclinic">
+                  <span>Explore Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <span class="project-verified-badge font-mono">
+                  <i class="fa-solid fa-circle-check"></i> VERIFIED CASE STUDY
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: QuestPlanner -->
+          <article class="project-entry" data-category="gamified" data-project-id="questplanner">
+            <div class="project-preview-box">
+              <div class="preview-inner">
+                <img src="assets/questplanner.jpg" alt="QuestPlanner Gamified System Preview" class="project-hero-img" loading="lazy">
+                <div class="preview-overlay">
+                  <button type="button" class="btn-preview-view open-case-study-btn" data-project="questplanner">
+                    <span>VIEW CASE STUDY</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="preview-caption font-mono">
+                <span>INDEX // 03</span>
+                <span>PRODUCTIVITY &amp; GAMIFICATION · 2025</span>
+              </div>
+            </div>
+
+            <div class="project-meta-box">
+              <div class="project-tag-strip">
+                <span class="ptag-category font-mono">UI/UX DESIGN · PRODUCTIVITY · GAMIFICATION</span>
+                <span class="ptag-year font-mono">2025</span>
+              </div>
+
+              <h3 class="project-heading">QuestPlanner — A Gamified System for Planning</h3>
+
+              <div class="project-role-line">
+                <span class="pr-label">ROLE:</span>
+                <span class="pr-val">UI/UX Designer</span>
+                <span class="pr-sep">·</span>
+                <span class="pr-label">PLATFORM:</span>
+                <span class="pr-val">Gamified Task Web App</span>
+              </div>
+
+              <p class="project-summary">
+                Designed a task management experience that uses rewards, levels, badges, progress tracking, and gamification to encourage sustained productivity. Integrates RPG mechanics such as XP meters and streak milestones to overcome to-do list fatigue.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Figma</span>
+                <span>Gamification Mechanics</span>
+                <span>Micro-Interactions</span>
+                <span>Habit Loops</span>
+                <span>Badge System</span>
+              </div>
+
+              <div class="project-actions-row">
+                <button type="button" class="btn btn-outline btn-sm open-case-study-btn" data-project="questplanner">
+                  <span>Explore Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <span class="project-verified-badge font-mono">
+                  <i class="fa-solid fa-circle-check"></i> VERIFIED CASE STUDY
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 04: QCU Auditorium Seat Reservation -->
+          <article class="project-entry" data-category="management" data-project-id="auditorium">
+            <div class="project-preview-box">
+              <div class="preview-inner">
+                <img src="assets/auditorium.jpg" alt="QCU Auditorium Seat Reservation System Preview" class="project-hero-img" loading="lazy">
+                <div class="preview-overlay">
+                  <button type="button" class="btn-preview-view open-case-study-btn" data-project="auditorium">
+                    <span>VIEW CASE STUDY</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="preview-caption font-mono">
+                <span>INDEX // 04</span>
+                <span>EVENT RESERVATION · 2026</span>
+              </div>
+            </div>
+
+            <div class="project-meta-box">
+              <div class="project-tag-strip">
+                <span class="ptag-category font-mono">UI/UX DESIGN · RESERVATION SYSTEM</span>
+                <span class="ptag-year font-mono">2026</span>
+              </div>
+
+              <h3 class="project-heading">QCU Auditorium Seat Reservation System</h3>
+
+              <div class="project-role-line">
+                <span class="pr-label">ROLE:</span>
+                <span class="pr-val">UI/UX Designer</span>
+                <span class="pr-sep">·</span>
+                <span class="pr-label">PLATFORM:</span>
+                <span class="pr-val">Event Ticketing System</span>
+              </div>
+
+              <p class="project-summary">
+                Designed an event reservation interface featuring cinema-style seat selection and an organized booking flow for university events. Provides visual stage orientation, tiered row layouts, real-time availability states, and instant digital pass generation.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Figma</span>
+                <span>Interactive Seating Map</span>
+                <span>Event UX</span>
+                <span>Booking Flow</span>
+                <span>Color State Logic</span>
+              </div>
+
+              <div class="project-actions-row">
+                <button type="button" class="btn btn-outline btn-sm open-case-study-btn" data-project="auditorium">
+                  <span>Explore Case Study</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <span class="project-verified-badge font-mono">
+                  <i class="fa-solid fa-circle-check"></i> VERIFIED CASE STUDY
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 05: CapStore — Capstone Project Repository -->
+          <article class="project-entry" data-category="academic" data-project-id="capstore">
+            <div class="project-preview-box">
+              <div class="preview-inner blueprint-preview-wrapper">
+                <!-- Architectural Blueprint Wireframe Placeholder as explicitly requested -->
+                <div class="blueprint-card">
+                  <div class="bp-grid-bg"></div>
+                  <div class="bp-header">
+                    <span class="bp-dot"></span>
+                    <span class="bp-dot"></span>
+                    <span class="bp-dot"></span>
+                    <span class="bp-title font-mono">CAPSTORE // REPOSITORY BLUEPRINT</span>
+                  </div>
+                  <div class="bp-wireframe">
+                    <div class="bp-sidebar-mock">
+                      <div class="bp-line short"></div>
+                      <div class="bp-line"></div>
+                      <div class="bp-line"></div>
+                      <div class="bp-line short"></div>
+                    </div>
+                    <div class="bp-content-mock">
+                      <div class="bp-search-mock">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search capstone thesis archives, tags, advisor...</span>
+                      </div>
+                      <div class="bp-cards-row">
+                        <div class="bp-mini-card">
+                          <span class="bp-badge">IT-CAP-2026</span>
+                          <div class="bp-card-line"></div>
+                          <div class="bp-card-line short"></div>
+                        </div>
+                        <div class="bp-mini-card">
+                          <span class="bp-badge">IT-CAP-2025</span>
+                          <div class="bp-card-line"></div>
+                          <div class="bp-card-line short"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bp-tag-notice font-mono">
+                    [ ACADEMIC ARCHITECTURE BLUEPRINT · READY FOR EXTENSION ]
+                  </div>
+                </div>
+
+                <div class="preview-overlay">
+                  <button type="button" class="btn-preview-view open-case-study-btn" data-project="capstore">
+                    <span>VIEW ARCHITECTURE DETAILS</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="preview-caption font-mono">
+                <span>INDEX // 05</span>
+                <span>INFORMATION MANAGEMENT · 2026</span>
+              </div>
+            </div>
+
+            <div class="project-meta-box">
+              <div class="project-tag-strip">
+                <span class="ptag-category font-mono">INFORMATION MANAGEMENT SYSTEM · ACADEMIC PROJECT</span>
+                <span class="ptag-year font-mono">2026</span>
+              </div>
+
+              <h3 class="project-heading">CapStore — Capstone Project Repository</h3>
+
+              <div class="project-role-line">
+                <span class="pr-label">ROLE:</span>
+                <span class="pr-val">System &amp; UI Architect</span>
+                <span class="pr-sep">·</span>
+                <span class="pr-label">STATUS:</span>
+                <span class="pr-val">Academic Repository Concept</span>
+              </div>
+
+              <p class="project-summary">
+                Designed to organize and manage capstone projects created by fourth-year Quezon City University students. Serves as a centralized digital archive for thesis papers, source code repositories, research categories, and academic defense scheduling.
+              </p>
+
+              <div class="project-tech-tags">
+                <span>Information Architecture</span>
+                <span>Repository Management</span>
+                <span>MySQL Schemas</span>
+                <span>Academic Workflows</span>
+                <span>UI Prototyping</span>
+              </div>
+
+              <div class="project-actions-row">
+                <button type="button" class="btn btn-outline btn-sm open-case-study-btn" data-project="capstore">
+                  <span>Explore Architecture Details</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <span class="project-blueprint-badge font-mono">
+                  <i class="fa-solid fa-compass-drafting"></i> ACADEMIC PROJECT
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 03: ABOUT ME -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">03 //</span>
+          <span class="section-kicker font-mono">BACKGROUND &amp; IDENTITY</span>
+        </div>
+
+        <div class="about-editorial-grid">
+          
+          <!-- Left Column: Big Headline & Story -->
+          <div class="about-story-col">
+            <h2 class="section-headline">
+              DESIGN-MINDED.<br>TECHNICALLY CURIOUS.<br>ALWAYS LEARNING.
+            </h2>
+
+            <div class="about-text-content">
+              <p class="about-p">
+                My name is <strong>Genrev Abraham V. Ordonio</strong>. I am currently a 4th-year 
+                <strong>Bachelor of Science in Information Technology</strong> student at 
+                <strong>Quezon City University</strong> in the Philippines.
+              </p>
+
+              <p class="about-p">
+                I enjoy designing useful digital experiences, exploring emerging technology, solving hands-on technical problems, and learning through continuous practice. I believe good design is not just visual ornamentation—it is a functional blueprint that communicates effortlessly and solves human frustration.
+              </p>
+
+              <p class="about-p">
+                My skill set combines creative <strong>UI/UX prototyping in Figma</strong>, 
+                <strong>front-end web development</strong> (HTML5, CSS3, JavaScript), 
+                <strong>MySQL database administration</strong>, and hands-on 
+                <strong>IT support and computer hardware troubleshooting</strong>.
+              </p>
+            </div>
+
+            <!-- Authentic Hobbies & Human Dimension -->
+            <div class="hobbies-editorial-block">
+              <span class="heb-label font-mono">BEYOND THE TERMINAL &amp; FIGMA CANVAS //</span>
+              <p class="heb-text">
+                When I’m not designing interfaces or troubleshooting workstations, I recharge through creative and outdoor pursuits:
+              </p>
+              <div class="hobbies-tags-grid">
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-music"></i>
+                  <div>
+                    <strong>Piano &amp; Guitar</strong>
+                    <span>Acoustic melodies &amp; chords</span>
+                  </div>
+                </div>
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-motorcycle"></i>
+                  <div>
+                    <strong>Motorcycle Riding</strong>
+                    <span>Open roads &amp; scenic routes</span>
+                  </div>
+                </div>
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-mountain"></i>
+                  <div>
+                    <strong>Hiking &amp; Trails</strong>
+                    <span>Summit views &amp; endurance</span>
+                  </div>
+                </div>
+                <div class="hobby-tag">
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <div>
+                    <strong>Creative Prototyping</strong>
+                    <span>Exploring digital ideas</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Quick Facts & Philosophy Matrix -->
+          <div class="about-matrix-col">
+            <div class="matrix-card">
+              <div class="mc-header font-mono">
+                <span>IDENTITY SPECIFICATIONS</span>
+                <span>MANILA, PH</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">FULL NAME</span>
+                <span class="spec-val">Genrev Abraham V. Ordonio</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">UNIVERSITY</span>
+                <span class="spec-val">Quezon City University (QCU)</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">DEGREE / YEAR</span>
+                <span class="spec-val">BS Information Technology · 4th Year</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">INTERNSHIP EXP</span>
+                <span class="spec-val">DA MIMAROPA Regional Office (45 Days)</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">CORE FOCUS</span>
+                <span class="spec-val text-accent">UI/UX Design · Front-End · IT Support</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">LOCATION</span>
+                <span class="spec-val">Quezon City, Metro Manila, Philippines</span>
+              </div>
+
+              <div class="spec-row">
+                <span class="spec-label font-mono">AVAILABILITY</span>
+                <span class="spec-val status-val">
+                  <span class="pulsing-lime-dot"></span>
+                  <span>OJT / Internship / Junior Roles</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Guiding Philosophy Box -->
+            <div class="philosophy-box">
+              <span class="pb-kicker font-mono">CORE WORKING ETHIC</span>
+              <blockquote class="pb-quote">
+                "Combine design empathy with technical execution. If a digital interface looks beautiful but frustrates users or breaks in production, the job isn't finished."
+              </blockquote>
+              <span class="pb-author font-mono">— Genrev Ordonio</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 04: EXPERIENCE & EDUCATION -->
+    <section class="section journey-section" id="journey">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">04 //</span>
+          <span class="section-kicker font-mono">CAREER &amp; ACADEMICS</span>
+        </div>
+
+        <div class="section-editorial-header">
+          <h2 class="section-headline">EXPERIENCE &amp; EDUCATION.</h2>
+          <p class="section-lead-desc">
+            Verified workplace training, enterprise ICT support in a government regional office, and rigorous university coursework in information technology.
+          </p>
+        </div>
+
+        <div class="journey-editorial-grid">
+          
+          <!-- Column 1: Workplace Experience -->
+          <div class="journey-col">
+            <div class="journey-col-header font-mono">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>WORKPLACE EXPERIENCE</span>
+            </div>
+
+            <article class="timeline-card">
+              <div class="tc-top">
+                <span class="tc-badge badge-work font-mono">INTERNSHIP · 45 DAYS</span>
+                <span class="tc-date font-mono">2026</span>
+              </div>
+
+              <h3 class="tc-role">Summer Youth Internship Program (SYIP) — ICT Support Intern</h3>
+              
+              <h4 class="tc-org">
+                <i class="fa-solid fa-building-columns"></i>
+                <span>Department of Agriculture — MIMAROPA Regional Office</span>
+              </h4>
+
+              <p class="tc-intro">
+                Completed a 45-day Summer Youth Internship Program assisting the regional ICT unit with critical hardware diagnostics, equipment inventory control, and technical support across departments.
+              </p>
+
+              <div class="tc-responsibilities">
+                <span class="resp-title font-mono">VERIFIED DUTIES &amp; CONTRIBUTIONS:</span>
+                <ul class="tc-bullets">
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>ICT Equipment Inventory &amp; Encoding:</strong> Assisted in physical inventory counting, equipment barcode encoding, and asset record verification for regional office devices.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>Workstation &amp; Printer Configuration:</strong> Set up, diagnosed, and resolved hardware and peripheral issues for staff computers and multi-function laser printers.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>Network Connectivity &amp; Troubleshooting:</strong> Configured basic LAN connections, crimped cables, and resolved internet connectivity issues for regional workstations.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>Administrative Technical Support:</strong> Assisted government personnel with digital documentation, software installations, and routine IT maintenance.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tc-tags-row">
+                <span class="tc-tag font-mono">ICT Support</span>
+                <span class="tc-tag font-mono">Hardware Setup</span>
+                <span class="tc-tag font-mono">Printer Config</span>
+                <span class="tc-tag font-mono">Asset Inventory</span>
+                <span class="tc-tag font-mono">Network Setup</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Column 2: Formal Education -->
+          <div class="journey-col">
+            <div class="journey-col-header font-mono">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>EDUCATION STATUS</span>
+            </div>
+
+            <article class="timeline-card">
+              <div class="tc-top">
+                <span class="tc-badge badge-edu font-mono">UNDERGRADUATE CANDIDATE</span>
+                <span class="tc-date font-mono">2023 — PRESENT</span>
+              </div>
+
+              <h3 class="tc-role">Bachelor of Science in Information Technology (BSIT)</h3>
+
+              <h4 class="tc-org">
+                <i class="fa-solid fa-university"></i>
+                <span>Quezon City University (QCU)</span>
+              </h4>
+
+              <p class="tc-intro">
+                Currently enrolled as a <strong>4th-year student</strong> in the Bachelor of Science in Information Technology program. Academic curriculum balances software design, database architecture, and computer infrastructure.
+              </p>
+
+              <div class="tc-responsibilities">
+                <span class="resp-title font-mono">CORE ACADEMIC AREAS:</span>
+                <ul class="tc-bullets">
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>UI/UX Prototyping &amp; Design Systems:</strong> Designing interactive user experiences, mockups, and wireframe prototypes using Figma.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>Web &amp; Software Development:</strong> Building standards-compliant front-end interfaces with HTML5, CSS3, JavaScript, and responsive design frameworks.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>Database Management:</strong> Designing relational data schemas, executing queries, and managing information in MySQL.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span><strong>Systems Analysis &amp; IT Service:</strong> Studying enterprise workflows, network diagnostics, and technical documentation.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tc-tags-row">
+                <span class="tc-tag font-mono">4th Year BSIT</span>
+                <span class="tc-tag font-mono">UI/UX Track</span>
+                <span class="tc-tag font-mono">Frontend Web</span>
+                <span class="tc-tag font-mono">MySQL</span>
+                <span class="tc-tag font-mono">OJT Ready</span>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 05: SKILLS & TOOLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">05 //</span>
+          <span class="section-kicker font-mono">TECHNICAL ARSENAL</span>
+        </div>
+
+        <div class="section-editorial-header">
+          <h2 class="section-headline">SKILLS &amp; PROFICIENCIES.</h2>
+          <p class="section-lead-desc">
+            Organized into five core disciplines supported by actual coursework, internship experience, and hands-on system building.
+          </p>
+        </div>
+
+        <!-- 5 Visual Categories Grid -->
+        <div class="skills-editorial-grid">
+          
+          <!-- Category 1: UI/UX & Product Design -->
+          <div class="skill-category-box">
+            <div class="sc-header">
+              <div class="sc-icon"><i class="fa-brands fa-figma"></i></div>
+              <div class="sc-title-group">
+                <span class="sc-num font-mono">01 // DESIGN</span>
+                <h3 class="sc-title">UI/UX &amp; Product Design</h3>
+              </div>
+            </div>
+            <p class="sc-desc">Creating intuitive digital interfaces from preliminary sketch to clickable, testable prototypes.</p>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-brands fa-figma"></i> Figma Prototyping</span>
+              <span class="skill-chip"><i class="fa-solid fa-bezier-curve"></i> Wireframing &amp; Mockups</span>
+              <span class="skill-chip"><i class="fa-solid fa-route"></i> User Flows</span>
+              <span class="skill-chip"><i class="fa-solid fa-sitemap"></i> Information Architecture</span>
+              <span class="skill-chip"><i class="fa-solid fa-palette"></i> Interface Design &amp; Systems</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-category-box">
+            <div class="sc-header">
+              <div class="sc-icon"><i class="fa-solid fa-code"></i></div>
+              <div class="sc-title-group">
+                <span class="sc-num font-mono">02 // CODE</span>
+                <h3 class="sc-title">Web Development</h3>
+              </div>
+            </div>
+            <p class="sc-desc">Building responsive, accessible, and standards-compliant front-end web layouts.</p>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5 (Semantic)</span>
+              <span class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3 (Flexbox &amp; Grid)</span>
+              <span class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript (ES6+ Interactivity)</span>
+              <span class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</span>
+              <span class="skill-chip"><i class="fa-solid fa-laptop-code"></i> Frontend Development</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Database & Systems -->
+          <div class="skill-category-box">
+            <div class="sc-header">
+              <div class="sc-icon"><i class="fa-solid fa-database"></i></div>
+              <div class="sc-title-group">
+                <span class="sc-num font-mono">03 // DATA</span>
+                <h3 class="sc-title">Database &amp; Systems</h3>
+              </div>
+            </div>
+            <p class="sc-desc">Structuring relational data, writing queries, and modeling information management systems.</p>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="skill-chip"><i class="fa-solid fa-table"></i> Relational Database Fundamentals</span>
+              <span class="skill-chip"><i class="fa-solid fa-folder-tree"></i> Information Management Systems</span>
+              <span class="skill-chip"><i class="fa-solid fa-terminal"></i> Basic SQL Querying</span>
+            </div>
+          </div>
+
+          <!-- Category 4: IT Support & Hardware -->
+          <div class="skill-category-box">
+            <div class="sc-header">
+              <div class="sc-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <div class="sc-title-group">
+                <span class="sc-num font-mono">04 // IT SUPPORT</span>
+                <h3 class="sc-title">IT Support &amp; Infrastructure</h3>
+              </div>
+            </div>
+            <p class="sc-desc">Hands-on experience setting up, maintaining, and troubleshooting physical workstations and office networks.</p>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-solid fa-desktop"></i> Computer Hardware Setup</span>
+              <span class="skill-chip"><i class="fa-solid fa-stethoscope"></i> Technical Troubleshooting</span>
+              <span class="skill-chip"><i class="fa-solid fa-print"></i> Printer Setup &amp; Configuration</span>
+              <span class="skill-chip"><i class="fa-solid fa-network-wired"></i> Network Connectivity (LAN/Wi-Fi)</span>
+              <span class="skill-chip"><i class="fa-solid fa-boxes-stacked"></i> ICT Equipment Inventory</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Creative Tools -->
+          <div class="skill-category-box">
+            <div class="sc-header">
+              <div class="sc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div class="sc-title-group">
+                <span class="sc-num font-mono">05 // CREATIVE</span>
+                <h3 class="sc-title">Creative Tools &amp; Solutions</h3>
+              </div>
+            </div>
+            <p class="sc-desc">Producing engaging digital marketing assets, banners, presentations, and visual content.</p>
+            <div class="skill-chips-list">
+              <span class="skill-chip"><i class="fa-solid fa-pen-nib"></i> Canva</span>
+              <span class="skill-chip"><i class="fa-solid fa-image"></i> Graphic Design</span>
+              <span class="skill-chip"><i class="fa-solid fa-shapes"></i> Creative Digital Solutions</span>
+              <span class="skill-chip"><i class="fa-solid fa-font"></i> Typography &amp; Composition</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 06: TRAINING & CERTIFICATIONS -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">06 //</span>
+          <span class="section-kicker font-mono">CREDENTIALS &amp; SEMINARS</span>
+        </div>
+
+        <div class="section-editorial-header">
+          <h2 class="section-headline">VERIFIED TRAINING.</h2>
+          <p class="section-lead-desc">
+            Focused professional workshops confirming commitment to cybersecurity ethics and practical hardware troubleshooting.
+          </p>
+        </div>
+
+        <div class="cert-grid">
+          
+          <!-- Cert 1: QCU Legal & Ethics -->
+          <article class="cert-card">
+            <div class="cert-header">
+              <span class="cert-icon-box"><i class="fa-solid fa-shield-halved"></i></span>
+              <span class="cert-year font-mono">2026</span>
+            </div>
+
+            <h3 class="cert-title">Legal, Ethical, and Professional Conduct in Cyberspace</h3>
+            
+            <p class="cert-issuer">
+              <i class="fa-solid fa-university"></i>
+              <span>Quezon City University</span>
+            </p>
+
+            <p class="cert-summary">
+              Specialized seminar addressing ethical digital practices, intellectual property compliance, data privacy standards, and professional etiquette in technology and design environments.
+            </p>
+
+            <div class="cert-footer font-mono">
+              <span class="cert-status-tag"><i class="fa-solid fa-check"></i> VERIFIED ACADEMIC SEMINAR</span>
+            </div>
+          </article>
+
+          <!-- Cert 2: DA MIMAROPA Basic Troubleshooting -->
+          <article class="cert-card">
+            <div class="cert-header">
+              <span class="cert-icon-box"><i class="fa-solid fa-toolbox"></i></span>
+              <span class="cert-year font-mono">2026</span>
+            </div>
+
+            <h3 class="cert-title">Training on Basic Troubleshooting and Digital Literacy</h3>
+
+            <p class="cert-issuer">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>Department of Agriculture — MIMAROPA Regional Office</span>
+            </p>
+
+            <p class="cert-summary">
+              Hands-on enterprise technical training covering systematic workstation diagnostic flows, component assembly, peripheral driver setup, and foundational digital literacy for public sector workflows.
+            </p>
+
+            <div class="cert-footer font-mono">
+              <span class="cert-status-tag"><i class="fa-solid fa-check"></i> VERIFIED REGIONAL TRAINING</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 07: CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-tag-row">
+          <span class="section-number-tag font-mono">07 //</span>
+          <span class="section-kicker font-mono">LET'S CONNECT</span>
+        </div>
+
+        <div class="contact-editorial-header">
+          <h2 class="contact-headline">LET'S BUILD SOMETHING USEFUL.</h2>
+          <div class="contact-status-strip">
+            <span class="pulsing-lime-dot"></span>
+            <span class="font-mono">OPEN FOR OJT PLACEMENTS, INTERNSHIPS, &amp; JUNIOR TECH OPPORTUNITIES</span>
+          </div>
+        </div>
+
+        <div class="contact-layout-grid">
+          
+          <!-- Column Left: Contact Details & Channels -->
+          <div class="contact-details-col">
+            <p class="contact-lead-text">
+              Whether you are looking for an <strong>OJT intern</strong> with design thinking and IT troubleshooting skills, have a UI/UX project to collaborate on, or wish to review my qualifications, my inbox is open.
+            </p>
+
+            <div class="contact-cards-stack">
+              
+              <!-- Email Card -->
+              <div class="contact-info-card">
+                <div class="cic-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div class="cic-details">
+                  <span class="cic-label font-mono">EMAIL ADDRESS</span>
+                  <a href="mailto:genrevordonio@gmail.com" class="cic-link" id="main-contact-email">genrevordonio@gmail.com</a>
+                </div>
+                <button type="button" class="cic-copy-btn copy-btn" data-copy="genrevordonio@gmail.com" title="Copy email address" aria-label="Copy email address">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Primary Phone Card -->
+              <div class="contact-info-card">
+                <div class="cic-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="cic-details">
+                  <span class="cic-label font-mono">PRIMARY MOBILE</span>
+                  <a href="tel:09605678177" class="cic-link">0960 567 8177</a>
+                </div>
+                <button type="button" class="cic-copy-btn copy-btn" data-copy="09605678177" title="Copy primary phone" aria-label="Copy primary phone">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Secondary Phone Card -->
+              <div class="contact-info-card">
+                <div class="cic-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div class="cic-details">
+                  <span class="cic-label font-mono">SECONDARY MOBILE</span>
+                  <a href="tel:09932568350" class="cic-link">0993 256 8350</a>
+                </div>
+                <button type="button" class="cic-copy-btn copy-btn" data-copy="09932568350" title="Copy secondary phone" aria-label="Copy secondary phone">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-info-card">
+                <div class="cic-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="cic-details">
+                  <span class="cic-label font-mono">LOCATION</span>
+                  <span class="cic-text">Quezon City, Metro Manila, Philippines</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Resume Quick Actions -->
+            <div class="contact-resume-box">
+              <div>
+                <strong class="crb-title">Need a printable CV or summary?</strong>
+                <p class="crb-desc">View my verified experience, education, and technical qualifications in a printable modal format.</p>
+              </div>
+              <button type="button" class="btn btn-secondary btn-sm" id="contact-open-cv-btn">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>Open CV Modal</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Column Right: Direct Message Form -->
+          <div class="contact-form-col">
+            <div class="contact-form-container">
+              <div class="cf-header font-mono">
+                <span>SEND DIRECT MESSAGE</span>
+                <span>STATUS // READY</span>
+              </div>
+
+              <form id="portfolio-contact-form" class="editorial-form" novalidate>
+                <div class="form-group">
+                  <label for="form-name" class="font-mono">FULL NAME <span class="req">*</span></label>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Maria Santos" required>
+                  <span class="field-error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="font-mono">EMAIL ADDRESS <span class="req">*</span></label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. maria@company.com" required>
+                  <span class="field-error" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-category" class="font-mono">OPPORTUNITY / CATEGORY <span class="req">*</span></label>
+                  <select id="form-category" name="category" class="form-select" required>
+                    <option value="" disabled selected>Select an opportunity category</option>
+                    <option value="OJT Placement">OJT / Internship Placement (BSIT)</option>
+                    <option value="UI/UX Design Opportunity">UI/UX Design &amp; Prototyping</option>
+                    <option value="IT Support / Hardware Opportunity">IT Support &amp; Technical Troubleshooting</option>
+                    <option value="Front-End Web Opportunity">Front-End Web Design</option>
+                    <option value="General Professional Inquiry">General Inquiry / Professional Networking</option>
+                  </select>
+                  <span class="field-error" id="category-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message" class="font-mono">MESSAGE <span class="req">*</span></label>
+                  <textarea id="form-message" name="message" class="form-textarea" rows="4" placeholder="Describe the role or your project requirements..." required></textarea>
+                  <span class="field-error" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                  <span>Send Message</span>
+                  <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+                <div class="form-alert" id="form-feedback-alert" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Editorial Footer -->
+  <footer class="portfolio-footer">
+    <div class="container footer-content">
+      <div class="footer-top-row">
+        <div class="footer-brand-block">
+          <a href="#hero" class="brand-logo footer-logo">
+            <span class="brand-monogram">&lt;G/O&gt;</span>
+            <span class="brand-name">GENREV ORDONIO<span class="accent-dot">.</span></span>
+          </a>
+          <p class="footer-bio">
+            4th-year BS Information Technology student at Quezon City University. Designing human-centered digital experiences in Figma and building reliable IT systems.
+          </p>
+        </div>
+
+        <nav class="footer-nav-block" aria-label="Footer Navigation">
+          <span class="footer-col-title font-mono">SECTIONS</span>
+          <ul class="footer-links-list">
+            <li><a href="#approach">01 // Approach</a></li>
+            <li><a href="#work">02 // Selected Work</a></li>
+            <li><a href="#about">03 // About Me</a></li>
+            <li><a href="#journey">04 // Journey &amp; Edu</a></li>
+            <li><a href="#skills">05 // Skills &amp; Tools</a></li>
+            <li><a href="#contact">06 // Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-contact-block">
+          <span class="footer-col-title font-mono">CONNECT</span>
+          <ul class="footer-links-list">
+            <li><a href="mailto:genrevordonio@gmail.com">Email Direct ↗</a></li>
+            <li><a href="tel:09605678177">0960 567 8177 ↗</a></li>
+            <li><button type="button" class="footer-text-btn" id="footer-cv-btn">Open CV Summary ↗</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="copyright-text font-mono">
+          &copy; 2026 GENREV ABRAHAM V. ORDONIO · ALL RIGHTS RESERVED.
+        </p>
+
+        <a href="#hero" class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to top of page">
+          <span class="font-mono">BACK TO TOP</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DEDICATED CASE STUDY MODAL -->
+  <div class="modal-overlay" id="project-case-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-case-title">
+    <div class="modal-container">
+      <button type="button" class="modal-close-trigger" id="close-case-modal-btn" aria-label="Close Case Study">
+        <span class="font-mono">ESC</span>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-body" id="modal-dynamic-body">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE CV SUMMARY MODAL -->
+  <div class="modal-overlay" id="cv-preview-modal" aria-hidden="true" role="dialog" aria-labelledby="cv-modal-name">
+    <div class="modal-container cv-modal-width">
+      <div class="cv-modal-top-bar">
+        <div class="cv-status-indicator font-mono">
+          <span class="status-dot"></span>
+          <span>CURRICULUM VITAE // VERIFIED ACADEMIC &amp; INTERNSHIP RECORD</span>
+        </div>
+        <div class="cv-top-actions">
+          <button type="button" class="btn btn-primary btn-sm" onclick="window.print()">
+            <i class="fa-solid fa-print"></i>
+            <span>Print / Save PDF</span>
+          </button>
+          <button type="button" class="modal-close-trigger cv-close-btn" id="close-cv-modal-btn" aria-label="Close CV Modal">
+            <span class="font-mono">ESC</span>
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="printable-cv-paper" id="printable-cv-sheet">
+        <!-- CV Header -->
+        <header class="cv-doc-header">
+          <div>
+            <h2 class="cv-doc-name" id="cv-modal-name">GENREV ABRAHAM V. ORDONIO</h2>
+            <p class="cv-doc-title">UI/UX Designer | Front-End Developer | ICT Support Specialist</p>
+            <div class="cv-doc-contacts font-mono">
+              <span><i class="fa-regular fa-envelope"></i> genrevordonio@gmail.com</span>
+              <span><i class="fa-solid fa-phone"></i> 0960 567 8177 / 0993 256 8350</span>
+              <span><i class="fa-solid fa-location-dot"></i> Quezon City, Philippines</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Profile Section -->
+        <section class="cv-doc-section">
+          <h3 class="cv-doc-sec-title">PROFESSIONAL PROFILE</h3>
+          <p class="cv-doc-text">
+            Detail-oriented and motivated 4th-year Bachelor of Science in Information Technology student at Quezon City University with proven experience in ICT support, computer hardware diagnostics, and UI/UX interface design. Skilled in Figma prototyping, web design (HTML5, CSS3, JavaScript), and relational databases (MySQL). Eager to apply technical problem-solving and user-centered design through an On-the-Job Training (OJT) or internship placement.
+          </p>
+        </section>
+
+        <!-- Education Section -->
+        <section class="cv-doc-section">
+          <h3 class="cv-doc-sec-title">EDUCATION</h3>
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">Bachelor of Science in Information Technology (BSIT)</strong>
+              <span class="cde-date font-mono">2023 — Present</span>
+            </div>
+            <p class="cde-sub">Quezon City University — 4th Year Candidate</p>
+            <p class="cde-note">Coursework: Software Development, UI/UX Design, Web Applications, Database Systems (MySQL), IT Infrastructure &amp; Troubleshooting.</p>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="cv-doc-section">
+          <h3 class="cv-doc-sec-title">WORK EXPERIENCE</h3>
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">Summer Youth Internship Program (SYIP) — ICT Support Intern</strong>
+              <span class="cde-date font-mono">2026 (45 Days)</span>
+            </div>
+            <p class="cde-sub">Department of Agriculture — MIMAROPA Regional Office</p>
+            <ul class="cv-doc-bullets">
+              <li>Assisted in full ICT equipment inventory, equipment tagging, barcode encoding, and asset verification.</li>
+              <li>Set up, diagnosed, and troubleshot employee computer workstations, laser printers, and office network connections.</li>
+              <li>Configured local area network (LAN) connections and assisted regional personnel in daily technical workflows.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Selected Projects Section -->
+        <section class="cv-doc-section">
+          <h3 class="cv-doc-sec-title">KEY IT PROJECTS (UI/UX DESIGN &amp; SYSTEMS)</h3>
+          
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">QCU MerchMart — E-Commerce System</strong>
+              <span class="cde-date font-mono">2024</span>
+            </div>
+            <p class="cde-sub">Role: UI/UX Designer · Tools: Figma, User Flows, Prototyping</p>
+            <ul class="cv-doc-bullets">
+              <li>Designed e-commerce interfaces for school merchandise and supplies, including product browsing, interactive cart, and student checkout.</li>
+            </ul>
+          </div>
+
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">Dr. Rosario Veterinary Clinic &amp; Pet Grooming Center</strong>
+              <span class="cde-date font-mono">2025</span>
+            </div>
+            <p class="cde-sub">Role: UI/UX Designer · Tools: Figma, Information Architecture, Dashboard UX</p>
+            <ul class="cv-doc-bullets">
+              <li>Designed a clinic management system interface for patient records, doctor appointments, grooming services, and inventory tracking.</li>
+            </ul>
+          </div>
+
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">QuestPlanner: A Gamified System for Planning</strong>
+              <span class="cde-date font-mono">2025</span>
+            </div>
+            <p class="cde-sub">Role: UI/UX Designer · Tools: Figma, Gamification UX, Micro-Interactions</p>
+            <ul class="cv-doc-bullets">
+              <li>Designed an engaging task management system incorporating RPG reward mechanics, level progressions, and streak milestones.</li>
+            </ul>
+          </div>
+
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">QCU Auditorium Seat Reservation System</strong>
+              <span class="cde-date font-mono">2026</span>
+            </div>
+            <p class="cde-sub">Role: UI/UX Designer · Tools: Figma, Interactive Seating Map, Booking UX</p>
+            <ul class="cv-doc-bullets">
+              <li>Designed an interactive seat reservation system for university ceremonies featuring movie theater-style seat selection and ticket generation.</li>
+            </ul>
+          </div>
+
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">CapStore — Capstone Project Repository</strong>
+              <span class="cde-date font-mono">2026</span>
+            </div>
+            <p class="cde-sub">Role: System &amp; UI Architect · Tools: Information Architecture, Database Modeling</p>
+            <ul class="cv-doc-bullets">
+              <li>Architected an academic repository concept to organize, archive, and manage capstone projects created by 4th-year QCU IT students.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Training & Seminars Section -->
+        <section class="cv-doc-section">
+          <h3 class="cv-doc-sec-title">TRAINING &amp; SEMINARS</h3>
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">Legal, Ethical, and Professional Conduct in Cyberspace</strong>
+              <span class="cde-date font-mono">2026</span>
+            </div>
+            <p class="cde-sub">Quezon City University — Cybersecurity ethics, data privacy compliance, and digital stewardship.</p>
+          </div>
+          <div class="cv-doc-entry">
+            <div class="cde-header">
+              <strong class="cde-title">Training on Basic Troubleshooting and Digital Literacy</strong>
+              <span class="cde-date font-mono">2026</span>
+            </div>
+            <p class="cde-sub">Department of Agriculture — 3-day intensive hands-on PC assembly, diagnostics, and digital literacy training.</p>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="cv-doc-section">
+          <h3 class="cv-doc-sec-title">TECHNICAL SKILLS &amp; TOOLS</h3>
+          <div class="cv-doc-skills-grid">
+            <div>
+              <strong>UI/UX &amp; Prototyping:</strong>
+              <p>Figma, Wireframing, High-Fidelity Prototyping, User Flow Mapping, Design Systems, Information Architecture</p>
+            </div>
+            <div>
+              <strong>Front-End Web &amp; DB:</strong>
+              <p>HTML5 (Semantic), CSS3 (Flexbox/Grid), JavaScript (ES6+), Responsive Web Design, MySQL Database Fundamentals</p>
+            </div>
+            <div>
+              <strong>IT Support &amp; Hardware:</strong>
+              <p>Workstation Diagnostics, PC Assembly &amp; Setup, Printer Configuration, LAN Connectivity &amp; Cabling, ICT Inventory Encoding</p>
+            </div>
+            <div>
+              <strong>Creative Tools:</strong>
+              <p>Canva, Graphic Design, Digital Asset Creation, Presentation Design</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-hub" id="toast-hub" aria-live="polite"></div>
+
+  <!-- Main Interaction Script -->
+  <script src="script.js"></script>
+</body>
+</html>
