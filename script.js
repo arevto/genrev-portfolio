@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
      1. Detailed Case Studies Data Store (Verified Information)
      -------------------------------------------------------------------------- */
   const projectsData = {
-    merchmargitt: {
+    merchmart: {
       title: 'QCU MerchMart — E-Commerce System',
       role: 'UI/UX Designer',
       year: '2024',
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const updateScrollState = () => {
     const scrollTop = window.scrollY || document.documentElement.scrollTop;
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-
+    
     // Update reading progress bar
     if (readingProgressBar && docHeight > 0) {
       const scrollPercent = (scrollTop / docHeight) * 100;
